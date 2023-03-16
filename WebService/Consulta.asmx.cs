@@ -21,7 +21,7 @@ namespace SistemaWS.WebService
         #endregion
 
         #region Consulta 02
-        [WebMethod(Description = "Retorna STRING", MessageName = "Consulta02")]
+        [WebMethod(Description = "Retorna STRING", MessageName = "public string Consulta02")]
         public string Consulta_02(Envio envio)
         {
             if (envio.Nome == "Victor")

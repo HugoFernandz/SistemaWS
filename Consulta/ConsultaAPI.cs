@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace SistemaWS.Consulta
 {
-    public class ClasseConsulta
+    public class ConsultaAPI
     {
         #region CONSULTA API
         public string Consulta02(Envio envio)

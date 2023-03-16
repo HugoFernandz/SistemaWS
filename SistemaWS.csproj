@@ -67,11 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Consulta\WSConsultar\WsPesquisar.disco" />
+    <Content Include="Consulta\WSConsultar\WebFormConsulta.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebService\Consulta.asmx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consulta\ClasseConsulta.cs" />
+    <Compile Include="Consulta\ConsultaAPI.cs" />
+    <Compile Include="Consulta\WSConsultar\WebFormConsulta.aspx.cs">
+      <DependentUpon>WebFormConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consulta\WSConsultar\WebFormConsulta.aspx.designer.cs">
+      <DependentUpon>WebFormConsulta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Envio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebService\Consulta.asmx.cs">
@@ -80,6 +89,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Consulta\WSConsultar\WsPesquisar.discomap" />
+    <None Include="Consulta\WSConsultar\WsPesquisar.wsdl" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
