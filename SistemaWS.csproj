@@ -71,6 +71,7 @@
     <Content Include="WebService\Consulta.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consulta\ClasseConsulta.cs" />
     <Compile Include="Envio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebService\Consulta.asmx.cs">

@@ -7,8 +7,7 @@ namespace SistemaWS
 {
     public class Envio
     {
-        public string idLogin { get; set; }
-        public string Senha { get; set; }
+        public string Token { get; set; }
         public string Nome { get; set; }
         public int Idade { get; set; }
     }
