@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using SistemaWS.Consulta;
+
 
 namespace SistemaWS
 {
@@ -12,7 +12,6 @@ namespace SistemaWS
         public string Nome { get; set; }
         public int Idade { get; set; }
     }
-
     public class Pesquisa
     {
         //Consulta.WSConsultar.WebFormConsulta 
